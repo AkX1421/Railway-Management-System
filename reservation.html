@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>Railway reservation form </title>
+        <h2>RESERVATION FORM</h2>
+		<style>
+			ul {
+				position: fixed;
+				top: 0px;
+				width: 100%;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: black; 
+			  }
+			  
+			  li {
+				float: left;
+			  }
+			  
+			  li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 20px 70px;
+				text-decoration: none;
+			  }
+			  
+			  li a:hover {
+				background-color: #111;
+			  }
+			  
+			  #menu li
+			  {
+				  display: inline ;
+				  padding-right: 100px;
+				  font-size: 15px;
+			  }
+	
+			
+			.navbar-toggle {
+				margin-top: 12px
+			}
+			
+			.navbar-toggle .icon-bar {
+				background-color: #fff;
+			}
+			
+			.navbar-toggle, 
+			.navbar-toggle:focus {
+				border:1px solid #fff;
+				outline: none;
+			}
+			.nav.a{
+					color:white;
+					text-decoration: none;
+				}
+			.nav .a:hover{
+					color:blue;
+					text-decoration: underline;
+				}
+	
+			}
+		</style>
+    </head>
+    
+    <body >
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+            <ul class="nav">
+                        
+            <li><a href="home.html" class="page-scroll"><h3>Home</h3></a></li>
+                        
+            <li><a href="aboutus.html" class="page-scroll"><h3>About</h3></a></li>
+                                            
+            <li><a href="reservation.html" class="page-scroll"><h3>Reservation Portal</h3></a></li>
+                        
+            <li><a href="contactus.html" class="page-scroll"><h3>Contact</h3></a></li>
+            
+            <li><a href="Login.html" class="page-scroll"><h3>Logout</h3></a></li>
+                    
+            </ul>
+        </div>
+    <form name="railway">
+		<caption>
+			<font color="#95D1CC"> <b>WELCOME TO RESERVATION FORM FROM INDIAN RAILWAYS</b></font>
+		</caption>
+        <center>
+        <h1><marquee bgcolor="#95D1CC">Railway Reservation System </marquee> </h1>
+     <table>
+     	<tr>
+			<td>Travelling date: </td>
+			<td><input type="number" name="railway"</td>
+         </tr>
+
+		 <tr>
+			<Td>Arrival date:</Td>
+			<Td><input type="number" value=""</Td>
+		   </tr>
+   
+
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name=""</td></tr>
+            <tr>
+         <tr>
+
+         <td>Number of Adults :</td>
+         <td><input type="number" name="adult"</td>
+         </tr> 
+
+         <tr>
+         <td>Number of children:</td>
+         <td><input type="number" nqme=""</td>
+		</tr>
+
+         <tr>
+         <Td>adhaar:</Td>
+         <Td><input type="number" value=""</Td>
+		</tr>
+
+		<tr>
+         <Td>seat number:</Td>
+         <Td><input type="number" value=""</Td>
+		</tr>
+
+
+          <tr>
+          <td>Payment options:</td>
+         <td> 
+        <input type="radio" name="payment" value="cc" />Credit Card <br />
+		<input type="radio" name="payment" value="dc" />Debit card <br /> 
+		<input type="radio" name="payment" value="wallet">UPI<br/>
+        </td>
+          
+          <tr>
+           <td><input type="submit" value="submit"</td>
+           <td><input type="reset" value="reset"</td>
+           <td>><input type="submit" value="Cancel"</td></tr>   
+         </table>   
+    </body>
+</html>
